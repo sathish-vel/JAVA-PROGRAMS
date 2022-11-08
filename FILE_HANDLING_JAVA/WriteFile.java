@@ -15,24 +15,6 @@ class WriteFile{
 		catch(IOException e){
 			System.out.println("An Error occurred");
 			e.printStackTrace();
-		}
-		//Read a file
-		try{
-			File obj = new File("newFile.txt");
-			Scanner reader = new Scanner(obj);
-			while(reader.hasNextline){
-				String data = reader.nextLine();
-				System.out.println(data);
-			}
-			reader.close();
-		}
-		catch(IOexception e){
-			System.out.println("An Error occurred.");
-			e.peintStackTrace();
-		}
-		
-		
-		
-		
+		}		
 	}
 }
